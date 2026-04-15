@@ -8,8 +8,8 @@ export default function LoginRoute() {
   const router = useRouter();
   const [mode, setMode] = useState('login');
   const [name, setName] = useState('');
-  const [email, setEmail] = useState('sarah@kalos.demo');
-  const [password, setPassword] = useState('kalos123');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
   const [status, setStatus] = useState('');
 
   if (token) {
